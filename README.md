@@ -46,7 +46,9 @@ These values were plotted to visually compare the performance across the three s
 
 The simulation results were visualized using Matplotlib:
 
-Figure	Description
-Figure 1	Average Waiting Time by Scenario
-Figure 2	Average Queue Length by Scenario
-Figure 3	Agent Utilization Comparison
+| Figure       | Description                      |
+| ------------ | -------------------------------- |
+| **Figure 1** | Average Waiting Time by Scenario |
+| **Figure 2** | Average Queue Length by Scenario |
+| **Figure 3** | Agent Utilization Comparison     |
+
