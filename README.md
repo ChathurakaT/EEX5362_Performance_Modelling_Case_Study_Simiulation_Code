@@ -52,3 +52,57 @@ The simulation results were visualized using Matplotlib:
 | **Figure 2** | Average Queue Length by Scenario |
 | **Figure 3** | Agent Utilization Comparison     |
 
+📈 Example Output
+
+Scenario A (2 agents): Avg Wait ≈ 67s, Queue ≈ 3.3
+
+Scenario B (3 agents): Avg Wait ≈ 2.6s, Queue ≈ 0.1
+
+Scenario C (2 agents, faster): Avg Wait ≈ 9.6s, Queue ≈ 0.45
+
+These outcomes show that adding more agents or improving their service rate drastically reduces both waiting time and queue buildup.
+
+💡 Insights & Recommendations
+
+Adding one more agent greatly reduces customer waiting time.
+
+Increasing service rate also helps, though to a lesser extent.
+
+Trade-off: More agents mean lower utilization, so cost vs. performance must be balanced.
+
+Recommendation: Implement dynamic staffing or AI-based automation to handle peak loads efficiently.
+
+🧰 Code Usage
+1️⃣ Install Dependencies
+pip install simpy numpy matplotlib
+
+2️⃣ Run the Simulation
+python call_center_simulation.py
+
+3️⃣ Output
+
+The program generates:
+
+Average waiting time
+
+Average queue length
+
+Agent utilization
+and automatically plots all charts for comparison.
+
+🧩 Technologies Used
+
+Python 3.9+
+
+SimPy – for discrete event simulation
+
+NumPy – for statistical calculations
+
+Matplotlib – for visualization
+
+✍️ Author
+
+D.W.C. Tharushan
+Final Year BSE (Hons) Student
+The Open University of Sri Lanka
+📧 s92069979@ousl.lk
